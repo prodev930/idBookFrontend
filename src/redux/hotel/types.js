@@ -1,0 +1,11 @@
+// src/actions/types.js
+
+export const GET_HOTEL_LIST = 'GET_HOTEL_LIST';
+export const GET_PROPERTIES_LIST = 'GET_PROPERTIES_LIST';
+export const GET_HOTEL_REVIEWS = 'GET_HOTEL_REVIEWS';
+export const GET_HOTEL_ROOMS = 'GET_HOTEL_ROOMS';
+export const GET_PROPERTY_IMAGES = 'GET_PROPERTY_IMAGES';
+
+export const GET_PROPERTIES = 'GET_PROPERTIES';
+
+

@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Hotel A",
+      "rating": 4,
+      "location": "City A",
+      "price": "$100",
+      "roomsAllowed": 2,
+      "distance": 5,
+      "propertyType": "Hotel",
+      "theme": "Family",
+      "facilities": ["Free Wifi", "Parking", "Fitness Center"]
+    },
+    {
+        "id": 2,
+        "name": "Hotel B",
+        "rating": 4,
+        "location": "City A",
+        "price": "$100",
+        "roomsAllowed": 2,
+        "distance": 5,
+        "propertyType": "Hotel",
+        "theme": "Family",
+        "facilities": ["Free Wifi", "Parking", "Fitness Center"]
+      },
+      {
+        "id": 3,
+        "name": "Hotel C",
+        "rating": 4,
+        "location": "City A",
+        "price": "$100",
+        "roomsAllowed": 2,
+        "distance": 5,
+        "propertyType": "Hotel",
+        "theme": "Family",
+        "facilities": ["Free Wifi", "Parking", "Fitness Center"]
+      }
+  ]
+  

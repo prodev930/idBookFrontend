@@ -1,0 +1,12 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="directions_car_black_24dp 1" clip-path="url(#clip0_0_7165)">
+<path id="Vector" d="M37.84 12.02C37.44 10.84 36.32 10 35 10H13C11.68 10 10.58 10.84 10.16 12.02L6 24V40C6 41.1 6.9 42 8 42H10C11.1 42 12 41.1 12 40V38H36V40C36 41.1 36.9 42 38 42H40C41.1 42 42 41.1 42 40V24L37.84 12.02ZM13.7 14H34.28L36.44 20.22H11.54L13.7 14ZM38 34H10V24H38V34Z" fill="black"/>
+<path id="Vector_2" d="M15 32C16.6569 32 18 30.6569 18 29C18 27.3431 16.6569 26 15 26C13.3431 26 12 27.3431 12 29C12 30.6569 13.3431 32 15 32Z" fill="black"/>
+<path id="Vector_3" d="M33 32C34.6569 32 36 30.6569 36 29C36 27.3431 34.6569 26 33 26C31.3431 26 30 27.3431 30 29C30 30.6569 31.3431 32 33 32Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_7165">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,632 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.input-holiday div{
+  padding: 0;
+}
+.btn-grad{
+ background:  linear-gradient(to right, rgba(29, 73, 141, 1), rgba(60, 101, 164, 1));
+}
+.act-btn button:hover, .act-btn button.active{
+  color: white;
+  outline: none;
+  background:  linear-gradient(to right, rgba(29, 73, 141, 1), rgba(60, 101, 164, 1));
+}
+.act-btn, .info-tab{
+  box-shadow:0px 2px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.info-tab{
+  padding: 0!important;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.text-box .text-in {
+  margin-top: -20px;
+  padding: 61px;
+  height: 530px;
+}
+
+.img-div img{
+  width: 100%;
+  max-height: 300px;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.img-style fieldset {
+  border: none;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/***********************************************/
+.title-h6 {
+  display: flex;
+  flex-direction: column!important;
+  align-items: flex-start;
+}
+.tab-container {
+  position: relative;
+}
+
+.tab-slider {
+  position: absolute;
+  height: 2px;
+  background-color: #3498db;
+  transition: transform 0.3s ease;
+}
+
+.tab-buttons {
+  width: 228px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab-buttons button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #1F4A8E;
+}
+
+.tab-buttons button.active {
+  border-radius: 24px;
+  padding: 4px 27px;
+  margin: 5px 0;
+  BACKGROUND: linear-gradient(to right, rgba(29, 73, 141, 1), rgba(60, 101, 164, 1));
+  color: white;
+}
+
+.tab-content {
+  background: white;
+  padding: 18px;
+  border-radius: 50px;
+}
+.tab-content .form-container {
+  width: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+.tab-content.fullDay {
+  opacity: 0;
+}
+
+.tab-content .tab-manage{
+  margin-left: 0;
+  width: 100%;
+}
+
+#tab-preference{
+  display: flex;
+    margin: 40px 0 0 0;
+    flex-wrap: wrap!important;
+    justify-content: center;
+}
+
+.tab-manage .tab-manage-1 {
+  display: flex;
+  margin: 0 20px!important;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+}
+h6{
+  text-wrap: nowrap;
+}
+p button{
+  display: flex;
+      justify-content: flex-end!important;
+}
+.tab-manage div:first-child{
+  display: flex;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-style{
+  position: relative;
+    /* height: '300px', */
+}
+
+.my-fullday{
+  display: flex;
+  gap: 76px!important;
+}
+/* Feedback */
+
+:root {
+  --color-gray: #9CA3AF;
+  --color-black: #1F2937;
+  --card-size: 23rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.carousel-tab{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.carousel {
+  padding-top: 40px;
+  position: relative;
+  width: var(--card-size);
+  height: 514px;
+  /* height: var(--card-size); */
+  perspective: 500px;
+  transform-style: preserve-3d;
+}
+.appStore img{
+  max-height:63px ;
+  max-width:159px ;
+}
+.card-container {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  transform: 
+    rotateY(calc(var(--offset) * 50deg)) 
+    scaleY(calc(1 + var(--abs-offset) * -0.4))
+    translateZ(calc(var(--abs-offset) * -30rem))
+    translateX(calc(var(--direction) * -5rem));
+  filter: blur(calc(var(--abs-offset) * 1rem));
+  transition: all 0.3s ease-out;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+    box-shadow: 3px 2px 20px 17px hsla(0, 0%, 0%, 0.1);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: var(--color-gray);
+    text-align: justify;
+    transition: all 0.3s ease-out;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 0.7em;
+  color: var(--color-black);
+}
+
+.card p, .card h2 {
+  transition: all 0.3s ease-out;
+  opacity: var(--active);
+}
+
+.nav {
+  color: white;
+  font-size: 5rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+  background: unset;
+  border: unset;
+}
+
+.nav.left {
+  left: 0;
+  transform: translateX(-100%) translateY(-50%);
+  color: #3D3D3D;
+}
+
+button:focus{
+  overflow: unset!important;
+}
+button:active{
+  overflow: unset!important;
+}
+.nav, .right {
+  right: 0;
+  transform: translateX(100%) translateY(-50%);
+  color: #3D3D3D;
+  overflow: unset;
+}
+
+.client-tab{
+  color: #1d498d;
+font-family: "Poppins-Medium", Helvetica;
+font-size: 32px;
+font-weight: 500;
+left: 0;
+letter-spacing: -0.45px;
+line-height: normal;
+top: 0;
+}
+.explore-banner{
+  padding: 20px;
+}
+.explore-banner div{
+  margin: auto;
+}
+
+.explore-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.sbs-btn{
+    background: linear-gradient(to right, rgba(29, 73, 141, 1), rgba(60, 101, 164, 1));
+    border-radius: 69px;
+    padding: 10px;  
+    font-weight: unset;
+    color: white;
+    font-size: 18px;  
+}
+
+.sbs-form{
+  margin: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 69px;
+  flex-wrap: wrap;
+}
+.booking-mode{
+  display: unset;
+}
+.sbs-form input{
+  padding: 12px;
+  border: none;
+  border-radius: 69px;
+}
+
+.data1{
+  display: flex!important;
+}
+
+.logo-label{
+  max-height: 54px;
+max-width: 142px;
+}
+.logo-text{
+  color: #1d498d;
+font-family: "Poppins-Bold", Helvetica;
+font-size: 40px;
+font-weight: 700;
+height: 24px;
+left: 0;
+letter-spacing: 0;
+line-height: 24px;
+}
+
+/* TopSection.css */
+
+.topSectionRoot {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+ 
+}
+
+.textContainer {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.arrowIcon {
+  font-size: 32px;
+  color: #2196f3; /* Set your desired arrow color */
+}
+
+.imageBanner {
+  width: 100%; /* Set your desired width for the image banner */
+  height: auto;
+  border-radius: 8px; /* Set your desired border radius */
+}
+
+.search-icon img{
+  max-width: 52px;
+    margin-right: -47px;
+    max-height: 52px;
+}
+.my-fullday fieldset, .my-hourly fieldset{
+  border: none!important;
+}
+.input-sec input{
+  padding: 0;
+}
+.input-sec{
+  width: min-content;
+  padding: 0 20px;
+}
+.destination-img div{
+  max-width: 15%;
+}
+@media (max-width: 1024px) {
+  .explore-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+  }
+
+.franhotelimg{
+  position: relative;
+  width: 100%;
+  max-height:500px;
+}
+.payment-mode button{
+  font-size: 24px;
+    font-weight: 500;
+    padding: 16px;
+    display: flex;
+    border: none;
+    color: black;
+    justify-content: flex-start;
+}
+
+.payment-mode button:hover, .payment-mode button:active, .payment-mode button.active, .payment-mode button:focus{
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+  background-color: white;
+}
+.textdata{
+  color: #5C5C5C;
+  font-weight: 400;
+  font-size: 16px;
+}
+.countdata{
+  color: #4A4A4A;
+  font-weight: 400;
+  font-size: 30px;
+}
+@media (max-width: 550px) {
+  .franhotelimg{
+    height:550px;
+  }
+}
+
+@media (max-width: 350px) {
+  .img-style img {
+   height: 600px;
+  }
+}
+@media (max-width:600px) {
+  .search-icon img {
+    margin-right: -20px;}
+}
+
+@media (min-width: 1024px) {
+  .tab-manage div:first-child{
+    flex-wrap: nowrap;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 825px) {
+  .featured-room{
+    padding: 70px;
+  }
+}
+
+.hotel-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.head-text, .desc-full{
+  text-align: start;
+}
+.desc-text{
+  margin-top: 44px;
+}
+.desc-full{
+margin-top: 16px;
+}
+.head-text{
+  color: var(--blue, #1D498D);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.302px;
+}
+.book-btn{
+  color: white;
+  margin-top: 32px;
+  border-radius: 4px;
+  background: var(--blue, #1D498D);
+  padding: 16px 80px;
+}
+.amenity-title, .sm-hotel{
+  font-weight: 500;
+  color: black;
+  text-align: start;
+  margin: 5% 0 3% 0;
+  font-size: 24px!important;
+}
+@media (min-width: 1200px) {
+  .hotel-card{
+    width: 45%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .hotel-card{
+    width: 59%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .hotel-card{
+    width: 70%;
+  }
+}
+
+@media (max-width: 599px) {
+  .hotel-card{
+    width: 85%;
+  }
+}
+button:active, button.active {
+  border: none;
+  outline: none!important; 
+}
+.featured-room .f-div{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 252px 144px 0 0;
+}
+.welcome-ban{
+  border-radius: 39px;
+    margin-top: 70px;
+}
+.ban-top{
+  border-radius: 39px;
+    margin-top: 70px;
+}
+
+.hotel-display #display-div{
+  border: 1px solid black;
+}
+
+.disp-card h6{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+.disp-card .price{
+  color: #1D498D;
+  font-size: 16px;
+  font-weight: 500;
+}
+.disp-card button{
+  padding: 8px 16px;
+    font-size: 16px;
+    background-color: #1D498D;
+    color: white;
+}
+.disp-card {
+  border: 1px solid #C4C4C4;
+}
+.div-sec .in-div div, .div-sec .in-div{
+  width: 100%;
+}
+
+.search {
+  display: flex;
+    width: 90%;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search input{
+  border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    padding: 12px;
+}
+
+/* input {
+  border:1px solid black !important;
+  border-radius: 5px;
+} */
